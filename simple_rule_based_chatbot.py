@@ -8,8 +8,6 @@ def get_response(user_input):
         return "Sorry, I can’t tell the weather right now, but it's sunny in my world!"
     elif "your name" in user_input:
         return "I'm FAQBot, your friendly chatbot."
-    elif "bye" in user_input:
-        return "Goodbye! Have a nice day."
     else:
         return "Sorry, I didn't understand that. Try asking something else!"
 
